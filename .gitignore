@@ -6,3 +6,11 @@ genesis.json
 alert-routing.yaml
 /.devnet/
 packages/contracts-bedrock/deploy-config/devnetL1.json
+# Local environment overrides
+.env
+.env.local
+.env.*.local
+
+# IDE/editor files
+.vscode/
+.idea/
