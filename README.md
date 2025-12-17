@@ -39,6 +39,13 @@ To use the template, run the following command(s):
 
 3. Install all project golang dependencies by running `go mod download`.
 
+## Troubleshooting
+
+If you encounter errors during build or start:
+1. Make sure Docker and Bazel are installed and up to date.
+2. Check local environment variable configuration.
+3. See the `docs/` folder for detailed setup steps.
+
 ## To Run
 
 1. Compile pessimism to machine binary by running the following project level command(s):
